@@ -191,12 +191,12 @@
                     <button class="btn bg-blue-500 hover:bg-blue-600" id="sendProofButton">KIRIM BUKTI PEMBAYARAN</button>
                 </div>
                 <div id="confirmPaymentContainer" class="hidden mt-4">
-                    <button class="btn bg-green-600 hover:bg-green-700" id="confirmPaymentButton">KONFIRMASI</button>
+                    <button class="btn bg-green-600 hover:bg-green-700" id="confirmPaymentButton">KONFIRMASI PEMBAYARAN</button>
                 </div>
             </div>
             <div class="flex justify-between mt-4">
                 <button class="btn bg-red-500 hover:bg-red-600" id="backButton" onclick="goBack()">Kembali</button>
-                <button class="btn bg-green-600 hover:bg-green-700 hidden" id="confirmButton" onclick="confirmPayment()">Konfirmasi Pembayaran</button>
+                <button class="btn bg-green-600 hover:bg-green-700 hidden" id="confirmButton" onclick="confirmPayment()">Konfirmasi</button>
             </div>
         </div>
     </div>
@@ -275,7 +275,7 @@
 
             if (method === 'whatsapp') {
                 paymentDetails.classList.remove('hidden'); // Tampilkan detail pembayaran
-                paymentDetails.innerHTML = `Silakan lakukan pembayaran melalui WhatsApp ke nomor: <strong>+6285835339743</strong>`;
+                paymentDetails.innerHTML = `Silakan lakukan pembayaran melalui WhatsApp ke nomor: <strong>+6287804812992</strong>`;
                 sendProofContainer.classList.add('hidden'); // Sembunyikan tombol kirim bukti
                 confirmPaymentContainer.classList.remove('hidden'); // Tampilkan tombol konfirmasi pembayaran
                 confirmButton.classList.remove('hidden'); // Tampilkan tombol konfirmasi pembayaran
